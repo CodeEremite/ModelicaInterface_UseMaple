@@ -10,6 +10,9 @@ namespace ModelicaInterface_UseMaple
     {
         static void Main(string[] args)
         {
+            TestMaple.TestInput();
+            Console.WriteLine("press any key to exit...");
+            Console.ReadKey();
         }
     }
 }
